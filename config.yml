@@ -1,0 +1,9 @@
+model: 
+  max-length: 300
+  valid-batch-size: 50
+  test-parameters:
+    shuffle: True
+    number-workers: 0
+  tokenizer: 'bert-base-uncased'
+  filename: './app/tinybert.pth'
+  model-name: 'google/bert_uncased_L-2_H-128_A-2'
