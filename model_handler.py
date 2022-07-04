@@ -1,4 +1,3 @@
-from unittest.util import _MAX_LENGTH
 from app import app
 import torch
 import model_functions as mf
