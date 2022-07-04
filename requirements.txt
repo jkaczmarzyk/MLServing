@@ -1,0 +1,9 @@
+flask
+pandas
+pyyaml
+torch
+transformers
+
+
+
+
