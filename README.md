@@ -2,14 +2,14 @@
 
 ## How to run this template
 
-1. Make sure you have Docker installed
+1. Make sure you have [Docker](https://www.docker.com/) installed
 2. Build the image with: 
 ```
 chmod +x ./build_image.sh
 ./build_image.sh
 ```
 3. Start the container with `./start_container.sh`
-4. In a new terminal window, run `./test.sh`
+4. In a new terminal window, run `./test.sh` 
 
 ## How to run this template with your own model
 
