@@ -1,6 +1,7 @@
 FROM ubuntu:latest
 RUN apt-get update -y
 
+RUN apt-get -y install python3.10-venv
 RUN apt-get -y install python3-pip
 RUN pip3 install --upgrade setuptools
 
